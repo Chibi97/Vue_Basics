@@ -1,0 +1,102 @@
+body {
+    background-image: url("./greek-vase.png");
+}
+
+.fas.fa-shopping-cart {
+    font-size: 25px;
+    position: relative;
+}
+
+span.danger {
+    color: crimson;
+}
+
+.fas.fas.fa-shopping-cart span {
+    background: crimson;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-family: Arial !important;
+}
+
+.row-centered {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.btn.btn-primary {
+    background-color: #41597b !important;
+}
+
+.navbar,
+.navbar a {
+    background-color: #41597b !important;
+    color: white !important;
+}
+
+.card {
+    width: 540px;
+}
+
+.filters {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 80px;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    width: calc(100% - 17%);
+    margin-bottom: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #41597b;
+    color: white;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-check-input:checked {
+    background-color: #41597b !important;
+}
+
+@media (max-width: 1399px) {
+    .filters {
+        width: calc(100% - 4%);
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1199px) {
+    .filters {
+        width: calc(100% - 44%);
+        flex-direction: column;
+    }
+    .filter-option {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 992px) {
+    .filters {
+        width: calc(100% - 25%);
+    }
+}
+@media (max-width: 767px) {
+    .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .filters {
+        width: calc(100% - 5%);
+    }
+}
