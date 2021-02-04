@@ -18,7 +18,7 @@ The app covers:
 
 ## Setup
 
-### If you want to make this from scratch, read this:
+### ~ If you want to make this from scratch, read the following ~
 
 1. Make sure you have a newer version of Node,
    I will use `14.15.4`
@@ -71,7 +71,7 @@ The app covers:
 
 ---
 
-## How to run the app
+### ~ How to run the app ~
 
 1. Generate `node_modules` by running:
 
