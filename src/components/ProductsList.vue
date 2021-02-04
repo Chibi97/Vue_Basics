@@ -58,10 +58,20 @@ export default {
         };
     },
     created() {
+        // if you build the backend make sure to edit code below
+        // let baseUrl = "http://localhost:8000"; -> laravel backend
+        // and then edit map() fn, it should return `${baseUrl}/${product.image}`
+
+        let baseUrl = "http://localhost:8080";
+
         axios
-            .get("http://localhost:8000/api/comics")
+            .get(`${baseUrl}/mock_api/data.json`)
             .then((response) => {
-                this.products = response.data;
+                this.products = response.data.map((product) => {
+                    product.image = `${baseUrl}/mock_api/${product.image}`;
+
+                    return product;
+                });
             })
             .catch((error) => console.log(error));
     },

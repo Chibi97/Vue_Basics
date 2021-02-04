@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "20th Century Boys",
+        "in_stock": "10",
+        "authors": ["Urasawa Naoki"],
+        "image": "images/20thcenturyboys.webp",
+        "description": "As the 20th century approaches its end, people all over the world are anxious that the world is changing. And probably not for the better. Kenji Endo is a normal convenience store manager who's just trying to get by. But when he learns that one of his old friends going by the name 'Donkey' has suddenly committed suicide, and that a new cult led by a figure known as 'Friend' is becoming more notorious.",
+        "genres": [
+            "Mystery",
+            "Drama",
+            "Historical",
+            "Sci-Fi",
+            "Psychological",
+            "Seinen"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Death Note",
+        "in_stock": "50",
+        "authors": ["Tsugumi Ohba", "Takeshi Obata"],
+        "image": "images/death_note.webp",
+        "description": "Ryuk, a god of death, drops his Death Note into the human world for personal pleasure. In Japan, prodigious high school student Light Yagami stumbles upon it. Inside the notebook, he finds a chilling message: those whose names are written in it shall die.",
+        "genres": [
+            "Mystery",
+            "Drama",
+            "Shounen",
+            "Supernatural",
+            "Psychological"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Attack on Titan",
+        "in_stock": "1",
+        "authors": ["Isayama Hajime"],
+        "image": "images/attack_on_titan.webp",
+        "description": "Hundreds of years ago, horrifying creatures which resembled humans appeared. These mindless, towering giants, called 'titans', proved to be an existential threat, as they preyed on whatever humans they could find in order to satisfy a seemingly unending appetite. Unable to effectively combat the titans, mankind was forced to barricade themselves within large walls surrounding what may very well be humanity's last safe haven in the world.",
+        "genres": [
+            "Supernatural",
+            "Action",
+            "Mistery",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Shounen"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Monster",
+        "in_stock": "10",
+        "authors": ["Urasawa Naoki"],
+        "image": "images/monster.webp",
+        "description": "Kenzou Tenma, a renowned Japanese neurosurgeon working in post-war Germany, faces a difficult choice: to operate on Johan Liebert, an orphan boy on the verge of death, or on the mayor of Düsseldorf. In the end, Tenma decides to gamble his reputation by saving Johan, effectively leaving the mayor for dead.",
+        "genres": ["Mystery", "Drama", "Psychological", "Seinen"]
+    },
+    {
+        "id": 5,
+        "name": "Fullmetal Alchemist",
+        "in_stock": "30",
+        "authors": ["Arakawa Hiromu"],
+        "image": "images/fma.webp",
+        "description": "Alchemists are knowledgeable and naturally talented individuals who can manipulate and modify matter due to their art. Yet despite the wide range of possibilities, alchemy is not as all-powerful as most would believe. Human transmutation is strictly forbidden, and whoever attempts it risks severe consequences.",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Shounen",
+            "Military"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Hunter x Hunter",
+        "in_stock": "20",
+        "authors": ["Togashi Yoshihiro"],
+        "image": "images/hunterxhunter.webp",
+        "description": "Gon Freecss wants to become a Hunter so he can find his father, a man who abandoned him to pursue a life of adventure. But it's not that simple: only one in one hundred thousand can pass the Hunter Exam, and that is just the first obstacle on his journey. During the Hunter Exam, Gon befriends many other potential Hunters, such as the mysterious Killua; the revenge-driven Kurapika; and Leorio, who aims to become a doctor.",
+        "genres": ["Action", "Adventure", "Fantasy", "Shounen", "Super Power"]
+    },
+    {
+        "id": 7,
+        "name": "Dorohedoro",
+        "in_stock": "15",
+        "authors": ["Q Hayashida"],
+        "image": "images/dorohedoro.webp",
+        "description": "Hole—a dark, decrepit, and disorderly district where the strong prey on the weak and death is an ordinary occurrence—is all but befitting of the name given to it. It is a testing ground to the magic users who dominate it. Kaiman, a reptile-like human was one of the experiments. Cursed by his appearance and tormented by nightmares, magic users are his only clue to restoring his life to normal. With his biggest obstacle being his stomach, his female companion Nikaidou, who runs the restaurant Hungry Bug, is his greatest ally. ",
+        "genres": ["Action", "Comedy", "Horror", "Magic", "Fantasy", "Seinen"]
+    },
+    {
+        "id": 8,
+        "name": "Vinland Saga",
+        "in_stock": "5",
+        "authors": ["Yukimura Makoto"],
+        "image": "images/vinlandsaga.webp",
+        "description": "Thorfinn, son of one of the Vikings' greatest warriors, is among the finest fighters in the merry band of mercenaries run by the cunning Askeladd, an impressive feat for a person his age. However, Thorfinn is not part of the group for the plunder it entails—instead, for having caused his family great tragedy, the boy has vowed to kill Askeladd in a fair duel.",
+        "genres": ["Action", "Adventure", "Drama", "Historical", "Seinen"]
+    }
+]
