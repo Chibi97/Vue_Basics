@@ -18,8 +18,10 @@ The app covers:
 
 ## Setup
 
+### If you want to make this from scratch, read this:
+
 1. Make sure you have a newer version of Node,
-   I will use 14.15.4
+   I will use `14.15.4`
 
 2. Download Vue CLI via Node package manager
 
@@ -34,7 +36,17 @@ The app covers:
 
     - `yarn add axios`
 
-5. Create `jsconfig.json` in the root of project and put:
+5. Create `/src/assets/style.css`
+
+6. Go to `/src/main.js` and import your own styles
+
+    ```
+    import "./assets/style.css";
+    ```
+
+7. Include Bootstrap 5 & FontAwesome in the head & script tag of `/public/index.html`
+
+8. Create `jsconfig.json` in the root of project and put:
 
     ```
     {
@@ -44,7 +56,7 @@ The app covers:
 
     We do this to let Vetur, official Vue formatter and linter, take care of all files inside of a `src` directory. Vetur by default uses ESLINT and Prettier in the background.
 
-6. Optionally, add `.prettierrc` file at the root of the project and put:
+9. Optionally, add `.prettierrc` file at the root of the project and put:
 
     ```
     {
@@ -57,11 +69,15 @@ The app covers:
 
     You don't have to do this, as Vetur by default is using some default Prettier rules. If you want to change those defaults, you can put your own ones into this file, like I did. These rules I like to use on all my projects.
 
-7. Generate `node_modules` by running:
+---
+
+## How to run the app
+
+1. Generate `node_modules` by running:
 
     - `yarn install`
 
-8. Run this to compile and hot-reload for development
+2. Run this to compile and hot-reload for development
     - `yarn serve`
 
 > Keep in mind that when I was presenting this, I had Laravel API running on port `8000`. Even so, I included here `/public/mock_api` dir with all the data you need. Also, I edited Ajax call logic so that this all works for you without an actuall API. Just run `yarn serve` and you are good to go!
